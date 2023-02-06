@@ -49,7 +49,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           > */}
-          <Link href="/about" className={styles.card}>
+          <Link href="/next-app/about" className={styles.card}>
             <h2 className={inter.className}>
               about spa遷移<span>-&gt;</span>
             </h2>
@@ -59,7 +59,7 @@ export default function Home() {
           </Link>
 
           <a
-            href="/about"
+            href="/next-app/about"
             className={styles.card}
           >
             <h2 className={inter.className}>
@@ -71,7 +71,7 @@ export default function Home() {
           </a>
 
           <Link
-            href="/"
+            href="/next-app/"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -84,7 +84,7 @@ export default function Home() {
           </Link>
 
           <a
-            href="/"
+            href="/next-app/"
             className={styles.card}
             rel="noopener noreferrer"
           >
